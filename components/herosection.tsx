@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Dev from "@/public/dev4.jpeg";
+import Dev from "../public/dev4.jpeg";
 export default function HeroSection() {
   return (
     <div>
@@ -9,7 +9,8 @@ export default function HeroSection() {
             <div className="text-[#040c07] items-start justify-center text-left text-4xl text-[28px] font-bold sm:text-[30px]">
               <p className="text-5xl">IT Software Solution & Consultation</p>
               <p className="text-[#040c07]  sm:text-[35px]">
-              We transform your challenges into opportunities thanks to high-performance digital solutions
+                We transform your challenges into opportunities thanks to
+                high-performance digital solutions
               </p>
 
               <div className="m-12 ml-1">
@@ -19,19 +20,13 @@ export default function HeroSection() {
                   target="_blank"
                   className="border-1 border-solid border-[#040c07] bg-[#040c07] text-white px-4 sm:py-2 text-[10px] shadow-xl transition sm:text-[20px] sm:w-fit text-center w-fit py-2 see-video animate__animated animate__bounce animate__infinite"
                 >
-                 Get more 
+                  Get more
                 </a>
               </div>
             </div>
 
             <div className="flex justify-center ml-2">
-              <Image
-                src={Dev}
-                alt="Sample image"
-                
-                
-                className="rounded-lg"
-              />
+              <Image src={Dev} alt="Sample image" className="rounded-lg" />
             </div>
           </div>
           <div className="mb-1 p-1 sm:p-2 w-fit sm:w-fit"></div>
