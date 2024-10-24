@@ -18,7 +18,7 @@ export default function Footer() {
         <section className="bg-white  pl-2 p-2  basis-7/12  rounded">
           <p className="text-[0.9rem] font-semibold text-lime-800">
             {" "}
-            Faisons Marché avec la digitalisation est notres VISION
+            Faire Marché avec la digitalisation est notres VISION
           </p>
           <Image
             src={Image2}

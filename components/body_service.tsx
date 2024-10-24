@@ -5,7 +5,7 @@ import congo from "../public/image-removebg-preview (2).png";
 
 export default function Body_service() {
   return (
-    <section>
+    <section className="border-t-8 border-lime-900">
       <section className=" w-full flex flex-col md:flex-row gap-3 p-10 pr-44 pl-44 items-center justify-center ">
         <section className="bg-white w-auto h-auto  p-5 basis-7/12">
           <p className="text-[1.8rem] font-bold text-green-700 mb-4">
