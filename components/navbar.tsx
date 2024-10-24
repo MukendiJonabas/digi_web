@@ -10,7 +10,9 @@ export default function Navbar() {
       <div className="flex gap-8 font-bold sm:text-[20px]">
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
-        <Link href="/don" className="">Services</Link>
+        <Link href="/service" className="">
+          Services
+        </Link>
       </div>
     </div>
   );
