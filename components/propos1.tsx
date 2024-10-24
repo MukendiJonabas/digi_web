@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Devops from "@/public/devops.jpg";
-import Tel from "@/public/image-removebg-preview (2).png";
-import Tab from "@/public/image-removebg-preview (3).png";
+import Tel from "@/public/image-removebg-preview (3).png";
+import Tab from "@/public/image-removebg-preview (4).png";
 export default function AProPos1() {
   return (
     <div className="w-full max-w-[1200px] mx-auto h-[20%] px-4 gap-6 flex flex-row sm:px-0 sm:py-16 ">

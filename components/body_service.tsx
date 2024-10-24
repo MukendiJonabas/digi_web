@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import service from "../public/image-removebg-preview (3).png";
-import congo from "../public/image-removebg-preview (2).png";
+import congo from "../public/image-removebg-preview (4).png";
 
 export default function Body_service() {
   return (
