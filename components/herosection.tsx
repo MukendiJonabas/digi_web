@@ -4,9 +4,9 @@ import Web from "@/public/agence-web.webp";
 import logo from "@/public/logo-inline-green.png";
 export default function HeroSection() {
   return (
-    <div className="relative isolate overflow-hidden backdrop-blur-sm bg-local bg-gray-900 py-24 sm:py-32">
+    <div className="relative isolate overflow-hidden backdrop-blur-sm bg-local  py-24 sm:py-32">
       <div className="relative custom-image w-full h-screen isolate overflow-hidden bg-gray-900">
-        <div className="absolute inset-0 -z-10 h-full w-full object-cover object-right backdrop-blur-sm bg-indigo-500 opacity-25">
+        <div className="absolute inset-0 opacity-25">
           <Image
             src={Web}
             layout="fill"
