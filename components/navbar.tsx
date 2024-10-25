@@ -2,8 +2,9 @@ import Link from "next/link";
 import logo from "@/public/logo-inline-white.png";
 import Image from "next/image";
 export default function Navbar() {
-  return (
-    <div className="bg-[#186265] sticky top-0 w-full p-5 flex justify-between items-center lg:px-48 text-white text-xs md:text-xl font-extrabold">
+  return
+ 
+    <div className="bg-[#0b1421] sticky z-20 top-0 w-full p-5 flex justify-between items-center lg:px-48 text-white text-xs md:text-xl font-extrabold">
       <Link href={"/"}>
         <Image src={logo} alt="" className="w-20" />
       </Link>
